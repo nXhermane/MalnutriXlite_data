@@ -8,7 +8,7 @@ export const createProcessedDataZip = async (): Promise<string> => {
 
     // Chemin vers le dossier processed_data
     const processedDataPath = path.join(__dirname, "..", "processed_data");
-    const outputFileName = "PediatricSoftWareData.zip";
+    const outputFileName = "MalnutriXlite_data.zip";
     const outputPath = path.join(__dirname, "..", "dist", outputFileName);
 
     // Vérifier si le dossier processed_data existe
