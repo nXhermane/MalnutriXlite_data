@@ -1,0 +1,23 @@
+{
+  "name": "malnutrix_lite_data",
+  "version": "1.0.0-alpha.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "build": "ts-node extract_all.ts",
+    "create-data-zip": "ts-node utils/createProcessedDataZip.ts",
+    "move": "ts-node utils/moveNeededAssetOnBuildDir.ts",
+    "build:zip:move": "yarn build && yarn create-data-zip && yarn move"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^22.15.3",
+    "smartcal": "^1.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
