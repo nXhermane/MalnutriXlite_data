@@ -1,10 +1,10 @@
-# MalNutrix Lite - Data Processing Pipeline
+# MalnutriX Lite - Data Processing Pipeline
 
-This repository contains the data processing pipeline for the **MalNutrix Lite** mobile application. It handles the extraction, transformation, and preparation of all data required by the mobile application for malnutrition assessment and management.
+This repository contains the data processing pipeline for the **MalnutriX Lite** mobile application. It handles the extraction, transformation, and preparation of all data required by the mobile application for malnutrition assessment and management.
 
 ## Overview
 
-The MalNutrix Lite Data Processing Pipeline is responsible for converting raw data sources (including WHO/NCHS growth charts, clinical references, nutritional information, diagnostic rules, and other medical data) into structured JSON formats optimized for mobile consumption. This ensures the MalNutrix Lite mobile application has access to all necessary data for proper functioning in field conditions.
+The MalnutriX Lite Data Processing Pipeline is responsible for converting raw data sources (including WHO/NCHS growth charts, clinical references, nutritional information, diagnostic rules, and other medical data) into structured JSON formats optimized for mobile consumption. This ensures the MalnutriX Lite mobile application has access to all necessary data for proper functioning in field conditions.
 
 ## Features
 
@@ -48,8 +48,8 @@ The processing pipeline is organized in modules:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd MalNutrix_lite_data
+git clone https://github.com/nXhermane/MalnutriXlite_data
+cd MalnutriX_lite_data
 ```
 
 2. Install dependencies:
@@ -77,7 +77,7 @@ This executes the `extract_all.ts` orchestrator which runs through all extractio
 
 ### Output
 
-Processed data is stored in the `processed_data/` directory in JSON format, optimized for use in the MalNutrix Lite mobile application. The directory includes:
+Processed data is stored in the `processed_data/` directory in JSON format, optimized for use in the MalnutriX Lite mobile application. The directory includes:
 - Growth charts and tables (`charts/` and `tables/`)
 - All indicators (`all_indicators/`)
 - Clinical references
@@ -88,7 +88,7 @@ Processed data is stored in the `processed_data/` directory in JSON format, opti
 ## Project Structure
 
 ```
-MalNutrix_lite_data/
+MalnutriX_lite_data/
 ├── extract_all.ts          # Main extraction orchestrator
 ├── devConstants.ts         # Development constants
 ├── processed_data/         # Output directory for processed JSON data
@@ -126,9 +126,9 @@ MalNutrix_lite_data/
 
 This project is licensed under the MIT License.
 
-## About MalNutrix Lite
+## About MalnutriX Lite
 
-MalNutrix Lite is a mobile application designed to assist healthcare workers in the assessment and management of malnutrition, particularly in resource-limited settings. This data processing pipeline is an essential component that ensures the mobile application has access to all necessary clinical and nutritional reference data.
+MalnutriX Lite is a mobile application designed to assist healthcare workers in the assessment and management of malnutrition, particularly in resource-limited settings. This data processing pipeline is an essential component that ensures the mobile application has access to all necessary clinical and nutritional reference data.
 
 ## Contributing
 
