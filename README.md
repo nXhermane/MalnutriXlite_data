@@ -48,7 +48,7 @@ The processing pipeline is organized in modules:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/nXhermane/MalnutriXlite_data
+git clone https://github.com/nXhermane/MalnutriXlite_data.git
 cd MalnutriX_lite_data
 ```
 

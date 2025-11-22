@@ -1,20 +1,23 @@
 [
   {
     "name": "Protocole nationale de prise en charge de la malnutrition aiguë au Bénin",
+    "thumbnail": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/protocole_prise_en_charge_malnutrition_benin_thumbnail.jpg",
     "url": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/protocole_de_prise_en_charge_ma_benin_version_modifie.pdf",
-    "version": "latest",
+    "version": 1,
     "edition": "2015"
   },
   {
     "name": "Protocole de prise en charge de la malnutrition aiguë au Rwanda",
+    "thumbnail": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/protocole_prise_en_charge_rwanda_thumbnail.jpg",
     "url": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/protocole_prise_en_charge_ma_rwanda.pdf",
-    "version": "latest",
+    "version": 1,
     "edition": "Février 2018"
   },
   {
-    "name": "FORMATION EN NUTRITION MODULE 2: DIAGNOSTIC DE LA MALNUTRITION, Cote d'ivoire",
+    "name": "Formation en nutrition module 2: DIAGNOSTIC DE LA MALNUTRITION, Cote d'ivoire",
+    "thumbnail": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/module_2_formation_diagnostic_thumbnail.jpg",
     "url": "https://github.com/nXhermane/MalnutriXlite_data/releases/latest/download/module_2_formation_en_nutrition.pdf",
-    "version": "latest",
+    "version": 1,
     "edition": "2017"
   }
 ]
